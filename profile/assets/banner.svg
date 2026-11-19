@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Why Not Systems: orquestrando agentes inteligentes">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0 L0 0 0 32" fill="none" stroke="#1c2230" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="#0b0d12"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+
+  <!-- logo -->
+  <g transform="translate(64 40) scale(0.47)">
+    <circle cx="256" cy="256" r="210" fill="#10141c" stroke="#2a3140" stroke-width="4"/>
+    <path d="M256 120 L166 200 M256 120 L346 200 M256 120 L256 236 M166 200 L256 236 M346 200 L256 236 M166 200 L186 330 M346 200 L326 330 M256 236 L186 330 M256 236 L326 330 M186 330 L256 392 M326 330 L256 392"
+          stroke="url(#g)" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <g fill="#0b0d12" stroke="url(#g)" stroke-width="10">
+      <circle cx="256" cy="120" r="22"/><circle cx="166" cy="200" r="20"/><circle cx="346" cy="200" r="20"/>
+      <circle cx="256" cy="236" r="24"/><circle cx="186" cy="330" r="20"/><circle cx="326" cy="330" r="20"/>
+      <circle cx="256" cy="392" r="22"/>
+    </g>
+  </g>
+
+  <!-- texto -->
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="330" y="150" fill="#e6e9ef" font-size="64" font-weight="700" letter-spacing="-1">Why Not Systems</text>
+    <text x="332" y="198" fill="#8b93a7" font-size="26">Orquestrando agentes de IA autônomos</text>
+    <text x="332" y="240" fill="#5eead4" font-size="18" font-family="'JetBrains Mono', Consolas, monospace">trigger → router → agents → deploy</text>
+  </g>
+
+  <!-- rede abstrata: dados e agentes fluem entre sistemas -->
+  <g transform="translate(940 0)" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#8b93a7">
+    <g stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.5">
+      <path d="M40 90 L150 70 M40 90 L150 160 M40 90 L150 250
+               M40 160 L150 70 M40 160 L150 160 M40 160 L250 160 M40 160 L150 250
+               M40 230 L150 70 M40 230 L150 160 M40 230 L150 250
+               M150 70 L250 160 M150 160 L250 160 M150 250 L250 160"/>
+    </g>
+    <g fill="#5eead4"><circle cx="40" cy="90" r="7"/><circle cx="40" cy="160" r="7"/><circle cx="40" cy="230" r="7"/></g>
+    <g fill="#818cf8"><circle cx="150" cy="70" r="7"/><circle cx="150" cy="160" r="7"/><circle cx="150" cy="250" r="7"/></g>
+    <circle cx="250" cy="160" r="9" fill="#a78bfa"/>
+  </g>
+</svg>
